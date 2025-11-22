@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "system_stm32f1xx.h": "c",
+        "i2c_handler.h": "c"
+    }
+}
