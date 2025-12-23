@@ -48,7 +48,9 @@ set(BAREMETAL_Include_Dirs
 
 # Baremetal application sources
 set(BAREMETAL_Application_Src
-    ${CMAKE_SOURCE_DIR}/main.c
+    # ${CMAKE_SOURCE_DIR}/main.c
+    ${CMAKE_SOURCE_DIR}/ads1115_handler.c
+    ${CMAKE_SOURCE_DIR}/example_ads1115.c
     ${CMAKE_SOURCE_DIR}/i2c_handler.c
     ${CMAKE_SOURCE_DIR}/uart_handler.c
     ${CMAKE_SOURCE_DIR}/startup_stm32f103xb.s
